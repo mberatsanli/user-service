@@ -1,0 +1,27 @@
+- name: "User Service"
+  security:
+    permissions:
+      - name: "Create User"
+        identifier: "create_user"
+        description: "A user can create a new user"
+        olac: false
+      - name: "View User"
+        identifier: "view_user"
+        description: "A user can view a user"
+        olac: false
+      - name: "Edit User"
+        identifier: "edit_user"
+        description: "A user can edit a user"
+        olac: false
+      - name: "Delete User"
+        identifier: "delete_user"
+        description: "A user can delete a user"
+        olac: false
+      - name: "Assign Permission"
+        identifier: "assign_permission"
+        description: "A user can assign a permission to a user"
+        olac: false
+      - name: "Revoke Permission"
+        identifier: "revoke_permission"
+        description: "A user can revoke a permission from a user"
+        olac: false
